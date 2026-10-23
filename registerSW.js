@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/kuala-read/sw.js', { scope: '/kuala-read/' })})}
